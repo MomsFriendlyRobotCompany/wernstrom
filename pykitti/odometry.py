@@ -12,6 +12,12 @@ import pykitti.utils as utils
 __author__ = "Lee Clement"
 __email__ = "lee.clement@robotics.utias.utoronto.ca"
 
+##Since Python2.x has no 'FileNotFoundError' exception, define it
+##Python3.x should do fine
+try:
+    FileNotFoundError
+except NameError:
+    FileNotFoundError = IOError
 
 class odometry:
     """Load and parse odometry benchmark data into a usable format."""
@@ -238,7 +244,7 @@ class odometry:
                     poses.append(T_w_cam0)
 
         except FileNotFoundError:
-            print('Ground truth poses are not avaialble for sequence ' +
+            print('Ground truth poses are not available for sequence ' +
                   self.sequence + '.')
 
         self.poses = poses
