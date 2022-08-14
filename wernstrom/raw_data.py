@@ -6,7 +6,7 @@ import numpy as np
 from . import utils
 
 
-class odometry:
+class raw:
     """Load and parse odometry benchmark data into a usable format."""
 
     def __init__(self, base_path, sequence, **kwargs):

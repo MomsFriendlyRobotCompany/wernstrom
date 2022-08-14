@@ -1,6 +1,6 @@
 """Tools for working with KITTI data."""
 
-from .odometry import odometry
+from .raw_data import raw
 from .download import get_data
 from .utils import rotx, roty, rotz
 

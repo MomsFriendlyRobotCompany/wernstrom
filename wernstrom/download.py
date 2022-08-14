@@ -11,7 +11,7 @@ def get_data(what):
         zip_name = f"data_tracking_{what}.zip"
         url = URL_BASE + zip_name
         print(f"Getting: {url}")
-        # call(['wget', url])
+        call(['wget', url])
     else:
         print("ERROR: Can only get this data:")
         for x in data_avail:

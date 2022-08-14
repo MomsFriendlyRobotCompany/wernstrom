@@ -7,15 +7,23 @@
 
 # wernstrom
 
-> So this package is a modification for what I use and a specific set of KITTI data that doesn't
-appear to follow the standard KITTI format. *Use at own risk*, your computer might melt or become
-sentient and take over the world!
+> So this package is a modification for what I use and a specific set of KITTI
+> data that doesn't appear to follow the standard KITTI format.
+> *Use at own risk*, your computer might melt or become sentient and
+> take over the world!
 
 This package provides a minimal set of tools for working with the KITTI dataset [[1]](#references) in Python. So far only the raw datasets and odometry benchmark datasets are supported, but we're working on adding support for the others. We welcome contributions from the community.
 
 ## Assumptions
 
-This package assumes that you have also downloaded the calibration data associated with the sequences you want to work on (these are separate files from the sequences themselves), and that the directory structure is unchanged from the original structure laid out in the KITTI zip files.
+This package assumes that you have also downloaded the calibration data associated with the sequences you want to work on (these are separate files from the sequences themselves).
+
+```python
+from wernstrom import get_data
+
+# download the zip data to current directory ... nothing fancy here!
+get_data("image_2")
+```
 
 ## Notation
 
