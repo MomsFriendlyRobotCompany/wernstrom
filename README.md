@@ -7,8 +7,9 @@
 
 # wernstrom
 
-So this package is a modification for what I use and a specific set of KITTI data that doesn't
-appear to follow the standard KITTI format.
+> So this package is a modification for what I use and a specific set of KITTI data that doesn't
+appear to follow the standard KITTI format. *Use at own risk*, your computer might melt or become
+sentient and take over the world!
 
 This package provides a minimal set of tools for working with the KITTI dataset [[1]](#references) in Python. So far only the raw datasets and odometry benchmark datasets are supported, but we're working on adding support for the others. We welcome contributions from the community.
 
