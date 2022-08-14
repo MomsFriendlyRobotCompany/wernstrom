@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "pykitti2"
-version = "0.3.3"
+name = "wernstrom"
+version = "0.4.0"
 description = "A minimal set of tools for working with the KITTI dataset in Python"
 authors = ["walchko <walchko@users.noreply.github.com>"]
 readme = "readme.md"
 license = "MIT"
 # homepage = "https://pypi.org/project/empty/"
-repository = 'https://github.com/MomsFriendlyRobotCompany/pykitti'
+repository = 'https://github.com/MomsFriendlyRobotCompany/wernstrom'
 # documentation = "http://..."
-keywords = ["numpy", "camera"]
+keywords = ["numpy", "camera", "kitti", "data", "robotics","vision","image processing"]
 classifiers = [
     'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',

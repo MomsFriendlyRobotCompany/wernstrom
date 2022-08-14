@@ -1,4 +1,4 @@
-![KITTI](wernstrom.png)
+![KITTI](pics/wernstrom.png)
 
 ![GitHub](https://img.shields.io/github/license/MomsFriendlyRobotCompany/wernstrom)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wernstrom)
