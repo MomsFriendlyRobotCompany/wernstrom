@@ -1,5 +1,10 @@
 ![KITTI](pykitti.png)
 
+![GitHub](https://img.shields.io/github/license/MomsFriendlyRobotCompany/wernstrom)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wernstrom)
+![PyPI](https://img.shields.io/pypi/v/wernstrom)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/wernstrom?color=aqua)
+
 # pykitti
 
 So this package is a modification for what I use and a specific set of KITTI data that doesn't
@@ -22,7 +27,7 @@ Pinhole camera intrinsics for camera `N` are provided as 3x3 `numpy.array` objec
 Camera data is available via generators for easy sequential access (e.g., for visual odometry), and by indexed getter methods for random access (e.g., for deep learning). Images are loaded as `PIL.Image` objects using Pillow.
 
 ```python
-import pykitti2 as pykitti
+import wernstrom as pykitti
 
 basedir = '/your/dataset/dir'
 sequence = '19'
