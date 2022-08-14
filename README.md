@@ -1,11 +1,11 @@
-![KITTI](pykitti.png)
+![KITTI](wernstrom.png)
 
 ![GitHub](https://img.shields.io/github/license/MomsFriendlyRobotCompany/wernstrom)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/wernstrom)
 ![PyPI](https://img.shields.io/pypi/v/wernstrom)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/wernstrom?color=aqua)
 
-# pykitti
+# wernstrom
 
 So this package is a modification for what I use and a specific set of KITTI data that doesn't
 appear to follow the standard KITTI format.
