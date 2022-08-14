@@ -6,7 +6,7 @@ authors = ["walchko <walchko@users.noreply.github.com>"]
 readme = "readme.md"
 license = "MIT"
 # homepage = "https://pypi.org/project/empty/"
-# repository = 'https://github.com/nimbus-bp-1729/empty'
+repository = 'https://github.com/MomsFriendlyRobotCompany/pykitti'
 # documentation = "http://..."
 keywords = ["numpy", "camera"]
 classifiers = [
@@ -35,5 +35,5 @@ squaternion = "*"
 pytest = "*"
 
 [build-system]
-requires = ["poetry>=1.0.0"]
+requires = ["poetry>=1.1.0"]
 build-backend = "poetry.masonry.api"
