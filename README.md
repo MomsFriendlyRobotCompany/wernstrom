@@ -12,7 +12,30 @@
 > *Use at own risk*, your computer might melt or become sentient and
 > take over the world!
 
-This package provides a minimal set of tools for working with the KITTI dataset [[1]](#references) in Python. So far only the raw datasets and odometry benchmark datasets are supported, but we're working on adding support for the others. We welcome contributions from the community.
+This package provides a minimal set of tools for working with the KITTI dataset [[1]](#references) in Python. So far only the raw datasets and odometry benchmark datasets are supported.
+
+## Layout
+
+
+```
+- Kitti dataset
+  +- calib
+  | +- 0000.txt
+  | +- 00NN.txt
+  +- oxts
+  | +- 0000.txt
+  | +- 00NN.txt
+  +- image_02
+  | +- 0000
+  |   +- 000000.png
+  |   +- NNNNNN.png
+  | +- 00NN
+  |   +- 000000.png
+  |   +- NNNNNN.png
+  +- image_03
+    +- same as image_02
+```
+
 
 ## Assumptions
 
