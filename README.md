@@ -25,10 +25,12 @@ This package provides a minimal set of tools for working with the KITTI dataset 
   +- oxts
   | +- 0000.txt
   | +- 00NN.txt
+  +- image_00 (not used)
+  +- image_01 (not used)
   +- image_02
   | +- 0000
-  |   +- 000000.png
-  |   +- NNNNNN.png
+  | | +- 000000.png
+  | | +- NNNNNN.png
   | +- 00NN
   |   +- 000000.png
   |   +- NNNNNN.png
